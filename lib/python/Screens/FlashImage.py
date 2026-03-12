@@ -44,7 +44,7 @@ class SelectImage(Screen):
 		self.expanded = []
 		self.model = HardwareInfo().get_machine_name()
 		self.machine = HardwareInfo().get_machinebuild_name()
-		self.selectedImage = ["AREADELTASAT", {"url": "https://images.areadeltasat.net/json/%s" % self.model, "model": self.model}]
+		self.selectedImage = ["AREADELTASAT", {"url": "http://images.areadeltasat.net/json/%s" % self.model, "model": self.model}]
 		self.models = [self.model]
 		self.setTitle(_("Select image"))
 		self["key_red"] = StaticText(_("Cancel"))
