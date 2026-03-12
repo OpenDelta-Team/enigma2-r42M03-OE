@@ -36,7 +36,7 @@ class About(Screen):
 		cpu = about.getCPUInfoString()
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
-		AboutText += _("OE Version: rev3be1658b (5.3.1)") + "\n"
+		AboutText += _("OE Version: (5.3.1)") + "\n"
 		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"
 		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 		AboutText += _("Forum: https://areadeltasat.net") + "\n"
